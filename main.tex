@@ -1,0 +1,76 @@
+\documentclass[10pt]{article}
+% !TEX program = lualatex
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{parskip}  % Espaciado entre párrafos
+\usepackage{helvet}   % Fuente moderna
+\renewcommand{\familydefault}{\sfdefault} % Fuente sans-serif
+\usepackage{amsmath} % Para entorno cases en ecuaciones
+\usepackage{hyperref}
+% Márgenes
+\geometry{a4paper, margin=1in}
+
+% Definir colores UTEC
+\definecolor{utecBlue}{RGB}{0, 174, 239} % Azul UTEC
+\definecolor{utecDarkGray}{RGB}{51, 51, 51} % Gris oscuro
+\definecolor{utecLightGray}{RGB}{200, 200, 200} % Gris claro
+
+\usepackage{fontspec}
+
+\setmainfont[
+    BoldFont={space-bold.ttf}, 
+]{space.ttf}
+
+% Estilo de títulos
+\titleformat{\section}{\color{utecBlue}\Large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\color{utecDarkGray}\large\bfseries}{}{0em}{}
+
+\usepackage{hyperref}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% variables
+
+\newcommand{\titulo}{Framework para la identificación de daños en pinturas del patrimonio cultural para su protección y conservación}
+%\newcommand{\version}{Mid term project}
+\newcommand{\version}{Proyectos de Investigación Aplicada a Prioridades 2027-03}
+\newcommand{\archivo}{cuerpo}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Portada
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    \includegraphics[width=0.7\textwidth]{uteclogo.png} % Coloca el logo en el mismo directorio
+    \vspace{4cm}
+    
+    {\Huge \textbf{\titulo}}
+    \vspace{0.5cm}
+    
+    {\Large \version}
+    \vfill
+    
+    {\large\textbf{Departamento de Computación - Centro de Investigación y Conservación del Patrimonio (UTEC)}}
+    
+    \vspace{0.5cm}
+    {\large \today}
+\end{titlepage}
+
+
+
+\include{\archivo}
+
+\end{document}
