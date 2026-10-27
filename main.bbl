@@ -1,0 +1,43 @@
+\begin{thebibliography}{}
+
+\bibitem[Degrigny et~al., 2020]{Degrigny2020WallPaintings}
+Degrigny, C., Boochs, F., Raddatz, L., Veller, J., Justus, C., and Pinette, M.
+  (2020).
+\newblock Use of imaging techniques as a support for the preventive
+  conservation strategy of wall paintings: Application to the medieval decors
+  of the ch{\^a}teau de germolles.
+\newblock In {\em Image and Signal Processing}, volume 12119 of {\em Lecture
+  Notes in Computer Science}, pages 24--34. Springer.
+
+\bibitem[dePolo et~al., 2021]{dePolo2021After}
+dePolo, G., Walton, M., Keune, K., and Shull, K.~R. (2021).
+\newblock After the paint has dried: a review of testing techniques for
+  studying the mechanical properties of artists' paint.
+\newblock {\em Heritage Science}, 9(1):68.
+
+\bibitem[Khalid et~al., 2024]{khalid2024review}
+Khalid, S., Azad, M.~M., Kim, H.~S., and Yang, Y. (2024).
+\newblock A review on traditional and artificial intelligence-based
+  preservation techniques for oil painting artworks.
+\newblock {\em Heritage Science}, 10(8):517.
+
+\bibitem[Miliani et~al., 2010]{Miliani2010MOLAB}
+Miliani, C., Rosi, F., Brunetti, B.~G., and Sgamellotti, A. (2010).
+\newblock In situ noninvasive study of artworks: The {MOLAB} multitechnique
+  approach.
+\newblock {\em Accounts of Chemical Research}, 43(6):728--738.
+
+\bibitem[Padfield et~al., 2005]{Padfield2005PTM}
+Padfield, J., Saunders, D., and Malzbender, T. (2005).
+\newblock Polynomial texture mapping: a new tool for examining the surface of
+  paintings.
+\newblock In {\em ICOM Committee for Conservation, 14th Triennial Meeting, The
+  Hague, Preprints}, volume~1, pages 504--510.
+
+\bibitem[Van~Vijle et~al., 2025]{VanVijle2025PaintingConservation}
+Van~Vijle, A., Hac{\i}g{\"u}zeller, P., and Van~der Snickt, G. (2025).
+\newblock Machine learning for painting conservation: a state-of-the-art
+  review.
+\newblock {\em npj Heritage Science}, 13.
+
+\end{thebibliography}
