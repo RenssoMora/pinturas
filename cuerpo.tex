@@ -12,8 +12,18 @@ sino que suele ser la causa directa de que el pigmento comience a descascararse,
 lo que en poco tiempo puede llevar a la pérdida definitiva de fragmentos originales~\citep{Degrigny2020WallPaintings}. 
 Por otra parte, la forma en que se forman esas grietas funciona como un registro único del 
 estado de conservación de la obra y de los daños que ha sufrido a lo largo de su historia. 
-Por este motivo, identificar estos fallos a tiempo y estudiarlos de manera constante resulta 
+En la Figura \ref{fig:defectos} se muestran algunos ejemplos de defectos presentes en pinturas, que incluyen 
+grietas, levantamiento de pintura, pérdida de pigmento y lesiones por impacto. Por este motivo, identificar estos fallos a tiempo y estudiarlos de manera constante resulta 
 indispensable para proteger la obra y tomar decisiones acertadas antes de iniciar cualquier trabajo de restauración~\citep{VanVijle2025PaintingConservation}.
+
+
+\begin{figure}[!hb]
+    \centering
+    \includegraphics[width=0.99\textwidth]{defectos.png}
+    \caption{\small Ejemplos de defectos presentes en pinturas. De izquiera a derecha se peude apreciar 
+    grietas, levantamiento de pintura, pérdida de pigmento y lesiones por impacto.}
+    \label{fig:defectos}
+\end{figure}
 
 
 Para identificar, delimitar y documentar los daños en obras pictóricas, se ha recurrido tradicionalmente a la inspección
@@ -38,6 +48,19 @@ de obras pictóricas con daños, que sirva como base de datos para entrenar y ev
 iii) un modelo de visión por computador multimodal que combina información de diversar fuentes extraídas 
 de las pinturas: imágenes RGB, térmicas y de fluorescencia, para detectar y clasificar los daños presentes 
 en la obra.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Pipeline principal}
+
+Para conseguir el objetivo principal del proyecto, se propone un pipeline que 
+consta de tres etapas principales: a) Creación de la base de datos, b) Entrenamiento y evaluación 
+del algoritmo, finalizando con c) Evaluación del framework. 
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (MiKTeX 26.2) (format=lualatex 2026.3.5)  27 OCT 2026 13:52
+This is LuaHBTeX, Version 1.24.0 (MiKTeX 26.2) (format=lualatex 2026.3.5)  28 OCT 2026 16:37
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/universidad/proyectos/pinturas/main
@@ -699,17 +699,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
 \openout2 = cuerpo.aux
  (./cuerpo.tex
+<defectos.png, id=31, 1323.44438pt x 314.67563pt>
+File: defectos.png Graphic file (type png)
+<use defectos.png>
+Package luatex.def Info: defectos.png  used on input line 22.
+(luatex.def)             Requested size: 448.4407pt x 106.62337pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 34.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 44.
 ) [2
 
-] (./main.bbl) [3
+<./defectos.png>] (./main.bbl) [3
 
 
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (./cuerpo.aux))
+
+(./cuerpo.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -719,23 +725,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15104 strings out of 476076
+ 15119 strings out of 476076
  125086,794899 words of node,token memory allocated
  589 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 19 attribute, 58 glue_spec
 , 10 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:2,2:313,3:106,4:84,5:382,6:21,7:9035,8:2,9:155,10:12,11:1297
- 37254 multiletter control sequences out of 65536+600000
- 28 fonts using 2530479 bytes
- 73i,5n,92p,1162b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:2,2:355,3:137,4:92,5:408,6:26,7:9839,8:2,9:193,10:12,11:1405
+ 37266 multiletter control sequences out of 65536+600000
+ 29 fonts using 2662167 bytes
+ 73i,6n,92p,1162b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/rmora/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans10-
 oblique.otf><c:/users/rmora/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmsans10-regular.otf><c:/users/rmora/appdata/local/programs/miktex/fonts/open
-type/public/lm/lmsans12-regular.otf><c:/users/rmora/appdata/local/programs/mikte
-x/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on main.pdf (4 pages, 98323 bytes).
+lm/lmsans9-regular.otf><c:/users/rmora/appdata/local/programs/miktex/fonts/opent
+ype/public/lm/lmsans10-regular.otf><c:/users/rmora/appdata/local/programs/miktex
+/fonts/opentype/public/lm/lmsans12-regular.otf><c:/users/rmora/appdata/local/pro
+grams/miktex/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on main.pdf (4 pages, 2114689 bytes).
 
-PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 1048576)
+PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 1048576)
  9 words of extra memory for PDF output out of 10000 (max. 100000000)
 
