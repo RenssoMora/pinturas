@@ -1,2 +1,7 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {1}Motivación y contexto del proyecto}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivos del proyecto}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Detalle de la metodología}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Edificación de la base de datos}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Implementación y evaluación del algoritmo}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Cronograma del proyecto}{4}{section.3}%

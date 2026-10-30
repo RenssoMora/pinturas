@@ -1,4 +1,4 @@
-\section{Introducción}
+\section{Motivación y contexto del proyecto}
 
 Las obras pictóricas del patrimonio cultural, ya sean cuadros sobre lienzo o madera o murales de varios colores,
 están formadas por distintas capas de materiales que reaccionan de forma continua con el ambiente~\citep{dePolo2021After}. 
@@ -41,7 +41,7 @@ Entre ellos, la fotogrametría, combinada con técnicas de escaneado tridimensio
 y seguir la evolución de redes de microgrietas, mientras que la visión por computador y el aprendizaje automático ofrecen
 herramientas para detectar, segmentar y cartografiar grietas y pérdidas de pintura~\citep{Degrigny2020WallPaintings}.
 
-El presente proyecto tiene como objetivo principal desarrollar un \emph{framework} de análisis de imágenes que 
+El presente proyecto tiene finalidad desarrollar un \emph{framework} de análisis de imágenes que 
 permita detectar y clasificar daños en pinturas. Las contribuciones principales al finalizar el proyecto son: 
 i) una plataforma web que permita realizar el registro y análisis de daños en pinturas, ii) un conjunto de imágenes 
 de obras pictóricas con daños, que sirva como base de datos para entrenar y evaluar los modelos de aprendizaje automático, y
@@ -53,15 +53,93 @@ en la obra.
 
 
 
-\section{Pipeline principal}
+\subsection{Objetivos del proyecto}
 
 Para conseguir el objetivo principal del proyecto, se propone un pipeline que 
 consta de tres etapas principales: a) Creación de la base de datos, b) Entrenamiento y evaluación 
 del algoritmo, finalizando con c) Evaluación del framework. 
 
 
+Para ello se definen el siguiente objetivo general:
+
+\begin{itemize}
+    \item OP: Desarrollar un framework de inteligencia artificial que permita detectar, identificar y clasificar daños 
+    en pinturas de patrimonio cultural
+\end{itemize}
+
+A partir de este objetivo principal, se definen los siguientes objetivos específicos:
+
+\begin{itemize}
+    \item OE$_1$: Recopilación y etiquetado de daños en imágenes de pinturas patrimoniales basados en fotografías de 
+    imágenes multimodales (luz visible - Infrarrojo - Ultravioleta - rayos X).
+    \item OE$_2$: Implementación y validación del modelo computacional. 
+    \item OE$_3$: Desarrollo del framework metodológico basado en inteligencia artificial.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Detalle de la metodología}
+
+En esta sección se describe el pipeline propuesto para la identificación de daños en pinturas patrimoniales.
+Siguiendo la estructura de los objetivos planteados, el pipeline se divide en tres etapas principales: 
+a) Edificación de la base de datos, b) Implementación y evaluación del algoritmo, finalizando con c) Desarrollo del framework. 
+La Figura \ref{fig:metodologia} muestra un esquema general del pipeline propuesto, que se detalla a continuación.
 
 
 
+\begin{figure}[!hb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figuras/Modelos.pdf}
+    \caption{\small Esquema general del pipeline propuesto para la identificación de daños en pinturas patrimoniales.}
+    \label{fig:metodologia}
+\end{figure}
+
+
+Cada una de las etapas del pipeline acude a conseguir cada uno de los objetivos específicos planteados en la sección anterior. 
+En las siguientes subsecciones se describe cada una de las etapas del pipeline, detallando las tareas que se realizarán, 
+los resultados esperados así como los responsables de cada tarea. Es importantes resaltar que los procesos que mostramos
+en le Figura \ref{fig:metodologia} son los que se realizarán en el marco del proyecto, sin embargo, existen otros procesos 
+administrativos y de gestión que no se muestran en la figura, pero que son necesarios para el correcto desarrollo del proyecto, 
+éstos serán descritos en la sección de gestión del proyecto. Así mismo, el detalle de la tareas como la duración de cada una de ellas
+estarán con maor detalle en la sección de Cronograma del proyecto~\ref{sec:cronograma}. 
+
+\subsection{Edificación de la base de datos}
+
+TODO
+
+
+\subsection{Implementación y evaluación del algoritmo}
+En esta etapa se implementará un modelo de visión por computador basado en aprendizaje profundo que permita detectar y 
+clasificar los daños presentes en las pinturas patrimoniales. Para ello, se utilizará la base de datos construida en la etapa anterior, 
+que contendrá imágenes multimodales. Al igual que en la etapa anterior, detallaremos las tareas que se realizarán, sin embargo, 
+también describiremos el modelo computacional que se implementará a partir de la investigación realizada en el marco del proyecto. 
+El cual es una de las principales contribuciones del proyecto. Todas las tareas de esta etapa atienden al objetivo específico OE$_2$. 
+
+
+\begin{itemize}
+    \item Actores de esta etapa:
+
+    \begin{itemize}
+        \item Reponsable de toda la etapa: Prof. Aurea Soriano
+        \item Investigadores: Prof. Aurea Soriano, Prof. Rensso Mora
+        \item Investigador tesista: Estudiante Luis Lopez Chambi 
+    \end{itemize}
+
+
+        \item Lista de tareas a realizar en esta etapa:
+
+    \begin{itemize}
+        \item Tarea B$_1$: Levantamiento de estado del arte de modelos de visión por computador para la detección y clasificación de daños en pinturas. Responsables: Aurea Soriano y Luis Lopez Chambi.
+        \item Tarea B$_2$: Implementación del algoritmo de detección y clasificación de daños. Responsables: Aurea Soriano, Rensso Mora, y Luis Lopez Chambi. 
+        \item Tarea B$_3$: Evaluación del algoritmo propuesto. Responsables: Aurea Soriano y Luis Lopez Chambi.
+        \item Tarea B$_4$: Redacción del documento científico. Responsables: Aurea Soriano y Luis Lopez Chambi.
+        \item Tarea B$_5$: Redacción del informe. Responsables: Aurea Soriano y Luis Lopez Chambi. 
+    \end{itemize}
+
+\end{itemize}
+
+\section{Cronograma del proyecto}\label{sec:cronograma}
 
 
