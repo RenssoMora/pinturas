@@ -2,6 +2,8 @@
 \contentsline {section}{\numberline {1}Motivación y contexto del proyecto}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivos del proyecto}{3}{subsection.1.1}%
 \contentsline {section}{\numberline {2}Detalle de la metodología}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Edificación de la base de datos}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Implementación y evaluación del algoritmo}{4}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Cronograma del proyecto}{4}{section.3}%
+\contentsline {section}{\numberline {3}Edificación de la base de datos}{3}{section.3}%
+\contentsline {section}{\numberline {4}Implementación y evaluación del algoritmo}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tarea B$_1$: Levantamiento de estado del arte de modelos de visión por computador para la detección y clasificación de daños en pinturas}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tarea B$_2$: Implementación del algoritmo de detección y clasificación de daños}{4}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Cronograma del proyecto}{5}{section.5}%

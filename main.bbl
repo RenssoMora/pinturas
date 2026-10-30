@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Carion et~al., 2020]{carion2020end}
+Carion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., and Zagoruyko,
+  S. (2020).
+\newblock End-to-end object detection with transformers.
+\newblock In {\em European Conference on Computer Vision (ECCV)}, pages
+  213--229. Springer.
+
 \bibitem[Degrigny et~al., 2020]{Degrigny2020WallPaintings}
 Degrigny, C., Boochs, F., Raddatz, L., Veller, J., Justus, C., and Pinette, M.
   (2020).
@@ -21,11 +28,29 @@ Khalid, S., Azad, M.~M., Kim, H.~S., and Yang, Y. (2024).
   preservation techniques for oil painting artworks.
 \newblock {\em Heritage Science}, 10(8):517.
 
+\bibitem[Li et~al., 2026]{li2026video}
+Li, J. et~al. (2026).
+\newblock Video anomaly detection with semantics-aware information bottleneck.
+\newblock In {\em IEEE International Conference on Multimedia and Expo (ICME)}.
+
+\bibitem[Liu et~al., 2021]{liu2021swin}
+Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., and Guo, B.
+  (2021).
+\newblock Swin transformer: Hierarchical vision transformer using shifted
+  windows.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}, pages 10012--10022.
+
 \bibitem[Miliani et~al., 2010]{Miliani2010MOLAB}
 Miliani, C., Rosi, F., Brunetti, B.~G., and Sgamellotti, A. (2010).
 \newblock In situ noninvasive study of artworks: The {MOLAB} multitechnique
   approach.
 \newblock {\em Accounts of Chemical Research}, 43(6):728--738.
+
+\bibitem[Name and Co-Authors, 2024]{tri_modal_fusion_transformers_conf}
+Name, A. and Co-Authors (2024).
+\newblock Tri-modal fusion transformers for uav-based object detection.
+\newblock In {\em IEEE International Conference on Image Processing (ICIP)}.
 
 \bibitem[Padfield et~al., 2005]{Padfield2005PTM}
 Padfield, J., Saunders, D., and Malzbender, T. (2005).

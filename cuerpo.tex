@@ -105,12 +105,12 @@ administrativos y de gestión que no se muestran en la figura, pero que son nece
 éstos serán descritos en la sección de gestión del proyecto. Así mismo, el detalle de la tareas como la duración de cada una de ellas
 estarán con maor detalle en la sección de Cronograma del proyecto~\ref{sec:cronograma}. 
 
-\subsection{Edificación de la base de datos}
+\section{Edificación de la base de datos}
 
-TODO
+TODO amigos virreynales
 
 
-\subsection{Implementación y evaluación del algoritmo}
+\section{Implementación y evaluación del algoritmo}
 En esta etapa se implementará un modelo de visión por computador basado en aprendizaje profundo que permita detectar y 
 clasificar los daños presentes en las pinturas patrimoniales. Para ello, se utilizará la base de datos construida en la etapa anterior, 
 que contendrá imágenes multimodales. Al igual que en la etapa anterior, detallaremos las tareas que se realizarán, sin embargo, 
@@ -139,6 +139,47 @@ El cual es una de las principales contribuciones del proyecto. Todas las tareas 
     \end{itemize}
 
 \end{itemize}
+
+
+\subsection{Tarea B$_1$: Levantamiento de estado del arte de modelos de visión por computador para la detección y clasificación de daños en pinturas}
+
+La tarea B$_1$ tiene como objetivo realizar un levantamiento del estado del arte de modelos de visión por computador para la detección y clasificación de daños en pinturas.
+Esta tarea se desarrolla desde el inicio de la participación del estudiante tesista en el proyecto y culmina al terminar la redacción del documento científico.
+El resultado esperado de esta tarea es un documento que contenga el estado del arte de modelos de visión por computador para la detección y clasificación 
+de daños en pinturas, esto es necesario para enriquecer la base de conocimiento del proyecto, resaltar las contribuciones de nuestro modelo contrastando
+con los modelos ya existentes. De esta forma esta tarea atiende al objetivo específico OE$_2$.
+
+
+\subsection{Tarea B$_2$: Implementación del algoritmo de detección y clasificación de daños}
+
+La tarea B$_2$ tiene como objetivo implementar un modelo de visión por computador basado en aprendizaje profundo que permita detectar y clasificar 
+los daños presentes en las pinturas patrimoniales. Esta tarea se desarrolla desde el inicio de la participación del estudiante tesista en el 
+proyecto y culmina al terminar la redacción del documento científico. El resultado esperado de esta tarea es un modelo computacional que permita 
+detectar y clasificar los daños presentes en las pinturas patrimoniales, esto es necesario para enriquecer la base de conocimiento del proyecto, 
+resaltar las contribuciones de nuestro modelo contrastando con los modelos ya existentes. De esta forma esta tarea atiende al objetivo específico OE$_2$.
+
+Si bien el modelo computacional es una de las principales contribuciones del proyecto, para la redacción del presente documento, se realizó un levantamiento
+previo del estado del arte y se define el siguiente modelo computacional que será implementado en el marco del proyecto. 
+El modelo propuesto es un modelo multimodal basado en aprendizaje profundo, que combina información de diversas fuentes extraídas de las pinturas: 
+imágenes RGB, térmicas y de fluorescencia, para detectar y clasificar los daños presentes en la obra. La Figura \ref{fig:modelo} muestra la arquitectura 
+propuesta para el modelo de detección y clasificación de daños en pinturas patrimoniales. Inspirados en los trabajos de fusión de características 
+multimodal \citep{li2026video, tri_modal_fusion_transformers_conf}, el modelo propuesto utiliza la información de las imágenes multimodales para extraer 
+características relevantes, esta fusión es necesaria ya que aunque las imágenes RGB proporcionan información visual detallada, las imágenes 
+térmicas y de fluorescencia pueden revelar daños ocultos o alteraciones en la pintura que no son visibles a simple vista. 
+Esta inforación de daños no  necesariamente coincide con la información de las imágenes RGB, por lo que la fusión de características permite al 
+modelo aprender representaciones más completas y robustas de los daños presentes en las pinturas, y una fusión temprana no es suficiente para capturar 
+la complejidad de los daños. En general la arquitectura se base en un decoder basado en swin transformer \citep{liu2021swin} y 
+un encoder basado en DETR \citep{carion2020end}. 
+
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.35\textwidth]{figuras/Modelos2.pdf}
+    \caption{\small Arquitectura propuesta para el modelo de detección y clasificación de daños en pinturas patrimoniales. Se divide en tres etapas: 
+    a) Extracción de características, b) Fusión de características y c) Detección y clasificación.}
+    \label{fig:modelo}
+\end{figure}
+
 
 \section{Cronograma del proyecto}\label{sec:cronograma}
 
