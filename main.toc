@@ -6,4 +6,8 @@
 \contentsline {section}{\numberline {4}Implementación y evaluación del algoritmo}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Tarea B$_1$: Levantamiento de estado del arte de modelos de visión por computador para la detección y clasificación de daños en pinturas}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Tarea B$_2$: Implementación del algoritmo de detección y clasificación de daños}{4}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Cronograma del proyecto}{5}{section.5}%
+\contentsline {subsection}{\numberline {4.3}Tarea B$_3$: Evaluación del algoritmo propuesto}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Tarea B$_4$: Redacción del documento científico}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Tarea B$_5$: Redacción del informe sobre el bloque dos del proyecto}{6}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Desarrollo del framework}{6}{section.5}%
+\contentsline {section}{\numberline {6}Cronograma del proyecto}{6}{section.6}%
