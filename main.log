@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.12)  30 OCT 2026 12:20
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.12)  30 OCT 2026 12:23
  restricted system commands enabled.
 **f:/Universidad/proyectos_investigacion/proyecto_pinturas/main
 (f:/Universidad/proyectos_investigacion/proyecto_pinturas/main.tex
@@ -830,7 +830,7 @@ Here is how much of LuaTeX's memory you used:
  607 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 20 attribute, 58 glue_spec
 , 12 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:2,2:550,3:165,4:119,5:518,6:42,7:11100,8:2,9:295,10:41,11:1574
+   avail lists: 1:2,2:550,3:165,4:118,5:516,6:42,7:11112,8:2,9:295,10:41,11:1580
 
  43303 multiletter control sequences out of 65536+600000
  48 fonts using 3969823 bytes
@@ -844,7 +844,7 @@ pe/public/lm/lmsans10-regular.otf><c:/users/rensso/appdata/local/programs/miktex
 ograms/miktex/fonts/opentype/public/lm/lmsans10-bold.otf><C:/Users/Rensso/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Rensso/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
-Output written on main.pdf (7 pages, 2258047 bytes).
+Output written on main.pdf (7 pages, 2258031 bytes).
 
 PDF statistics: 247 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 131072)

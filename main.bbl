@@ -22,6 +22,12 @@ dePolo, G., Walton, M., Keune, K., and Shull, K.~R. (2021).
   studying the mechanical properties of artists' paint.
 \newblock {\em Heritage Science}, 9(1):68.
 
+\bibitem[Iaboni and Abichandani, 2026]{Iaboni_2026_CVPR}
+Iaboni, C. and Abichandani, P. (2026).
+\newblock Tri-modal fusion transformers for uav-based object detection.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 4373--4382.
+
 \bibitem[Khalid et~al., 2024]{khalid2024review}
 Khalid, S., Azad, M.~M., Kim, H.~S., and Yang, Y. (2024).
 \newblock A review on traditional and artificial intelligence-based
@@ -46,11 +52,6 @@ Miliani, C., Rosi, F., Brunetti, B.~G., and Sgamellotti, A. (2010).
 \newblock In situ noninvasive study of artworks: The {MOLAB} multitechnique
   approach.
 \newblock {\em Accounts of Chemical Research}, 43(6):728--738.
-
-\bibitem[Name and Co-Authors, 2024]{tri_modal_fusion_transformers_conf}
-Name, A. and Co-Authors (2024).
-\newblock Tri-modal fusion transformers for uav-based object detection.
-\newblock In {\em IEEE International Conference on Image Processing (ICIP)}.
 
 \bibitem[Padfield et~al., 2005]{Padfield2005PTM}
 Padfield, J., Saunders, D., and Malzbender, T. (2005).
